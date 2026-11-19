@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <section aria-labelledby="hero-heading">
       <div className="max-w-screen-2xl mx-auto px-4 lg:px-12 pt-6">
-        <div className="card grid grid-cols-1 lg:grid-cols-2 gap-10 items-center rounded-3xl bg-gradient-to-br from-navy to-water px-6 py-12 lg:px-16 lg:py-20">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center rounded-3xl bg-gradient-to-br from-navy to-water px-6 py-12 lg:px-16 lg:py-20">
           <div>
             <h1
               id="hero-heading"
@@ -35,8 +35,8 @@ export default function Hero() {
                   Choose a service
                 </option>
                 {site.services.map((service) => (
-                  <option key={service} value={service}>
-                    {service}
+                  <option key={service.name} value={service.name}>
+                    {service.name}
                   </option>
                 ))}
               </select>
@@ -63,11 +63,11 @@ export default function Hero() {
             <div className="mt-4 flex flex-wrap items-center gap-2">
               {site.services.slice(0, 4).map((s) => (
                 <Link
-                  key={s}
+                  key={s.name}
                   href="/#services"
                   className="inline-flex items-center gap-1 rounded-full border border-slate-300 px-3 py-1 text-sm bg-white text-slate-900 hover:border-water hover:text-water"
                 >
-                  {s}
+                  {s.name}
                   <ArrowUpRightIcon
                     className="h-3.5 w-3.5"
                     aria-hidden="true"
@@ -88,12 +88,12 @@ export default function Hero() {
           </div>
           <div>
             <Image
-              src="/images/hero-img.jpg"
-              alt="Brass gas regulators and pressure gauges on a heating system"
+              src="/images/heating-removebg.png"
+              alt="White column radiator"
               width={1200}
               height={800}
               priority
-              className="rounded-2xl object-cover w-full h-64 sm:h-80 lg:h-auto"
+              className="mx-auto h-auto w-full max-w-sm object-contain drop-shadow-2xl lg:max-w-md"
             />
           </div>
         </div>
