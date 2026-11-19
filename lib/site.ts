@@ -1,12 +1,12 @@
 import {
-  WrenchScrewdriverIcon,
-  FireIcon,
-  HomeModernIcon,
-  CubeIcon,
-  SparklesIcon,
-  ArrowPathIcon,
-  BoltIcon,
-} from "@heroicons/react/24/outline";
+  Wrench,
+  Heater,
+  Droplets,
+  ThermometerSun,
+  Bath,
+  Waves,
+  Siren,
+} from "lucide-react";
 export const site = {
   name: "Sleektyne Home Services",
   tagline: "Plumbing & Heating across Northumberland and Tyneside",
@@ -38,43 +38,43 @@ export const site = {
       name: "Boiler repair",
       description:
         "Fast diagnosis and repair for all major boiler brands, with same-day visits where possible and a fixed price before we start.",
-      icon: WrenchScrewdriverIcon,
+      icon: Wrench,
     },
     {
       name: "Boiler installation",
       description:
         "Energy-efficient new boilers fitted by accredited engineers, with clear advice on the right model for your home and budget.",
-      icon: HomeModernIcon,
+      icon: Heater,
     },
     {
       name: "Leaks and repairs",
       description:
         "From dripping taps to burst pipes, we find the source quickly and repair it properly to prevent water damage.",
-      icon: CubeIcon,
+      icon: Droplets,
     },
     {
       name: "Central heating",
       description:
         "Installation, upgrades and power flushing to keep every room warm and your heating running efficiently.",
-      icon: FireIcon,
+      icon: ThermometerSun,
     },
     {
       name: "Bathrooms",
       description:
         "Complete bathroom installations and upgrades, from showers and toilets to full refits, finished to a high standard.",
-      icon: SparklesIcon,
+      icon: Bath,
     },
     {
       name: "Blocked drains",
       description:
         "Sinks, toilets and outside drains cleared quickly and cleanly, with advice to help stop the problem coming back.",
-      icon: ArrowPathIcon,
+      icon: Waves,
     },
     {
       name: "Emergency call-out",
       description:
         "Burst pipe, no heating or no hot water? Call us any time, day or night, across Northumberland and Tyneside.",
-      icon: BoltIcon,
+      icon: Siren,
     },
   ],
   accreditations: [

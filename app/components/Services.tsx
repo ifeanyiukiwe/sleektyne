@@ -31,7 +31,11 @@ export default function Services() {
                 className="flex flex-col rounded-2xl border border-slate-200 bg-white p-6 transition hover:shadow-lg"
               >
                 <div className="grid h-12 w-12 place-items-center rounded-xl bg-water/10 text-water">
-                  <Icon className="h-6 w-6" aria-hidden="true" />
+                  <Icon
+                    className="h-6 w-6"
+                    strokeWidth={1.5}
+                    aria-hidden="true"
+                  />
                 </div>
                 <h3 className="mt-4 text-xl font-bold text-navy">
                   {service.name}
