@@ -15,7 +15,7 @@ export default function Header() {
         >
           <span
             aria-hidden="true"
-            className="grid h-10 w-10 place-items-center rounded-lg bg-navy text-sun"
+            className="grid h-10 w-10 place-items-center rounded-lg bg-gradient-to-br from-navy to-water text-sun"
           >
             <svg viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5">
               <path d="M12 2.5c-.3 0-.6.15-.8.4C9.6 5 6 9.6 6 14a6 6 0 0 0 12 0c0-4.4-3.6-9-5.2-11.1a1 1 0 0 0-.8-.4Z" />

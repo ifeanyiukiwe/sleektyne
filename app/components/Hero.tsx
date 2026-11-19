@@ -88,12 +88,12 @@ export default function Hero() {
           </div>
           <div>
             <Image
-              src="/images/hero-img.jpg"
-              alt="Brass gas regulators and pressure gauges on a heating system"
+              src="/images/heating-removebg.png"
+              alt="White column radiator"
               width={1200}
               height={800}
               priority
-              className="rounded-2xl object-cover w-full h-64 sm:h-80 lg:h-auto"
+              className="mx-auto h-auto w-full max-w-sm object-contain drop-shadow-2xl lg:max-w-md"
             />
           </div>
         </div>
