@@ -33,4 +33,11 @@ export const site = {
     "Blocked drains",
     "Emergency call-out",
   ],
+  accreditations: [
+    "Gas Safe (sample)",
+    "Fully insured (sample)",
+    "12-month guarantee",
+    "Local engineers",
+    "Fixed-price quotes",
+  ],
 };
