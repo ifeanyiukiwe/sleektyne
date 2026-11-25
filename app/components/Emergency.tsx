@@ -3,7 +3,7 @@ import { PhoneIcon } from "@heroicons/react/24/outline";
 export default function Emergency() {
   return (
     <section aria-labelledby="emergency-heading" className="py-8">
-      <div className="max-w-screen-2xl mx-auto px-4 lg:px-12">
+      <div className="container-page">
         <div className="flex flex-col gap-6 rounded-3xl bg-sun px-6 py-10 text-navy md:flex-row md:items-center md:justify-between lg:px-16">
           <div className="max-w-2xl">
             <p className="text-sm uppercase font-bold tracking-wide">

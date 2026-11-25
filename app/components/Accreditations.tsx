@@ -3,7 +3,7 @@ import { site } from "@/lib/site";
 export default function Accreditations() {
   return (
     <section aria-label="Accreditations">
-      <div className="max-w-screen-2xl mx-auto px-4 lg:px-12">
+      <div className="container-page">
         <ul className="grid grid-cols-2 gap-x-4 gap-y-3 py-8 text-sm sm:grid-cols-3 sm:text-base lg:flex lg:flex-wrap lg:justify-center lg:gap-x-8">
           {site.accreditations.map((accreditation) => (
             <li
