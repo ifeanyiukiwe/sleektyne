@@ -5,7 +5,7 @@ import { ArrowUpRightIcon } from "@heroicons/react/24/outline";
 export default function Hero() {
   return (
     <section aria-labelledby="hero-heading">
-      <div className="max-w-screen-2xl mx-auto px-4 lg:px-12 pt-6">
+      <div className="container-page pt-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center rounded-3xl bg-gradient-to-br from-navy to-water px-6 py-12 lg:px-16 lg:py-20">
           <div>
             <h1

@@ -8,7 +8,7 @@ export default function Services() {
       aria-labelledby="services-heading"
       className="scroll-mt-28"
     >
-      <div className="max-w-screen-2xl mx-auto px-4 lg:px-12 py-16">
+      <div className="container-page py-16">
         <p className="text-sm font-semibold tracking-wide text-water">
           OUR SERVICES
         </p>
