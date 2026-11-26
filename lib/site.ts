@@ -6,6 +6,10 @@ import {
   Bath,
   Waves,
   Siren,
+  BadgePoundSterling,
+  ShieldCheck,
+  BadgeCheck,
+  Sparkles,
 } from "lucide-react";
 export const site = {
   name: "Sleektyne Home Services",
@@ -75,6 +79,33 @@ export const site = {
       description:
         "Burst pipe, no heating or no hot water? Call us any time, day or night, across Northumberland and Tyneside.",
       icon: Siren,
+    },
+  ],
+
+  reasons: [
+    {
+      title: "Fixed prices, agreed upfront",
+      description:
+        "You'll know the full cost before any work starts. No hourly surprises, no hidden extras.",
+      icon: BadgePoundSterling,
+    },
+    {
+      title: "12-month guarantee on our work",
+      description:
+        "If anything we've fixed goes wrong within a year, we come back and put it right free. New boilers carry up to 10 years' manufacturer warranty.",
+      icon: ShieldCheck,
+    },
+    {
+      title: "Gas Safe and DBS checked",
+      description:
+        "Every engineer carries a Gas Safe ID card you can ask to see, and is DBS checked before working in your home.",
+      icon: BadgeCheck,
+    },
+    {
+      title: "Local, tidy and respectful",
+      description:
+        "We live and work in Northumberland and Tyneside. We wear shoe covers, protect your floors and leave every room as we found it.",
+      icon: Sparkles,
     },
   ],
 
