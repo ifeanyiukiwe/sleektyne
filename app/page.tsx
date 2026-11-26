@@ -3,6 +3,7 @@ import Accreditations from "./components/Accreditations";
 import Services from "./components/Services";
 import Emergency from "./components/Emergency";
 import Reviews from "./components/Reviews";
+import WhyChooseUs from "./components/WhyChooseUs";
 export default function Home() {
   return (
     <>
@@ -11,6 +12,7 @@ export default function Home() {
       <Services />
       <Emergency />
       <Reviews />
+      <WhyChooseUs />
     </>
   );
 }
