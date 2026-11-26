@@ -77,6 +77,42 @@ export const site = {
       icon: Siren,
     },
   ],
+
+  reviews: [
+    {
+      name: "Sarah M.",
+      area: "Morpeth",
+      service: "Boiler repair",
+      rating: 5,
+      quote:
+        "Our boiler stopped on a Sunday night. They answered straight away and had it running by mid-morning. Clear price before starting, no surprises.",
+    },
+    {
+      name: "Damon H.",
+      area: "Whitley Bay",
+      service: "Central heating",
+      rating: 4,
+      quote:
+        "They installed a new central heating system in my rental property, and came back for the annual service as agreed without me having to chase.",
+    },
+    {
+      name: "Brian O.",
+      area: "Monk Seaton",
+      service: "Blocked drains",
+      rating: 5,
+      quote:
+        "Woke up to overflowing drains due to blockage, my neighbour referred them to me, rang up and they arrived on time to get it sorted at a very fair price and left everywhere clean.",
+    },
+    {
+      name: "Beth A.",
+      area: "Cramlington",
+      service: "Boiler installation",
+      rating: 5,
+      quote:
+        "Our old boiler was over 15 years old. They fitted a new one in a day, explained the 10-year guarantee properly and left the kitchen spotless.",
+    },
+  ],
+
   accreditations: [
     "Gas Safe (sample)",
     "Fully insured (sample)",
