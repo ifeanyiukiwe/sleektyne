@@ -11,6 +11,7 @@ import {
   BadgeCheck,
   Sparkles,
 } from "lucide-react";
+type Tier = "covered" | "extended";
 export const site = {
   name: "Sleektyne Home Services",
   tagline: "Plumbing & Heating across Northumberland and Tyneside",
@@ -109,6 +110,93 @@ export const site = {
     },
   ],
 
+  areas: [
+    {
+      region: "Newcastle",
+      tier: "covered" as Tier,
+      towns: [
+        "City Centre",
+        "Jesmond",
+        "Gosforth",
+        "Fenham",
+        "Westerhope",
+        "Byker",
+        "Walker",
+        "Heaton",
+        "Dinnington",
+        "Lemington",
+        "Throckley",
+      ],
+      postcodes: ["NE1", "NE2", "NE3", "NE4", "NE5", "NE6", "NE7", "NE15"],
+    },
+    {
+      region: "North Tyneside",
+      tier: "covered" as Tier,
+      towns: [
+        "Monkseaton",
+        "Whitley Bay",
+        "Shiremoor",
+        "Wallsend",
+        "North Shields",
+        "Tynemouth",
+        "Killingworth",
+        "Longbenton",
+        "Wideopen",
+      ],
+      postcodes: [
+        "NE25",
+        "NE26",
+        "NE27",
+        "NE28",
+        "NE29",
+        "NE30",
+        "NE12",
+        "NE13",
+      ],
+    },
+    {
+      region: "South-east Northumberland",
+      tier: "covered" as Tier,
+      towns: [
+        "Ponteland",
+        "Bedlington",
+        "Cramlington",
+        "Blyth",
+        "Morpeth",
+        "Choppington",
+        "Stakeford",
+        "Ashington",
+        "Newbiggin",
+        "Seaton Delaval",
+      ],
+      postcodes: [
+        "NE20",
+        "NE22",
+        "NE23",
+        "NE24",
+        "NE61",
+        "NE62",
+        "NE63",
+        "NE64",
+      ],
+    },
+    {
+      region: "North and west Northumberland",
+      tier: "extended" as Tier,
+      towns: [
+        "Hexham",
+        "Amble",
+        "Rothbury",
+        "Alnwick",
+        "Seahouses",
+        "Bamburgh",
+        "Wooler",
+        "Berwick",
+      ],
+      postcodes: ["NE46", "NE65", "NE66", "NE68", "NE69", "NE71", "TD15"],
+    },
+  ],
+
   reviews: [
     {
       name: "Sarah M.",
@@ -128,7 +216,7 @@ export const site = {
     },
     {
       name: "Brian O.",
-      area: "Monk Seaton",
+      area: "Monkseaton",
       service: "Blocked drains",
       rating: 5,
       quote:
